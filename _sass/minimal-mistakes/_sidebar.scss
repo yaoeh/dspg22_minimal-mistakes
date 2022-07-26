@@ -90,15 +90,15 @@
       float: right;
 
       .toc {
-        header {
-          background: $secondary-color;
-        }
         .toc__menu {
           overflow-y: auto;
           max-height: calc(100vh - 7em);
         }
       }
     }
+  }
+  header {
+    background: $secondary-color;
   }
 
   @include breakpoint($x-large) {
