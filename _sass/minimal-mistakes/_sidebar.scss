@@ -44,7 +44,6 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
-
   h2,
   h3,
   h4,
@@ -91,6 +90,9 @@
       float: right;
 
       .toc {
+        header {
+          background: $secondary-color;
+        }
         .toc__menu {
           overflow-y: auto;
           max-height: calc(100vh - 7em);
@@ -350,4 +352,3 @@
     margin-right: initial;
   }
 }
-

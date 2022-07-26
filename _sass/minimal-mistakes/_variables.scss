@@ -6,18 +6,18 @@
    Typography
    ========================================================================== */
  @font-face {
-   font-family: "Adobe Caslon";
-   src: url("../fonts/adobe-caslon-pro/ACaslonPro-Regular.otf");
+   font-family: "AdobeCaslon";
+   src: url("../fonts/adobe-caslon-pro/ACaslonPro-Regular.otf") format('truetype');
  }
 
  @font-face {
-   font-family: "Franklin Gothic";
-   src: url("../fonts/franklin-gothic/FranklinGothic.ttf");
+   font-family: "FranklinGothic";
+   src: url("../fonts/franklin-gothic/FranklinGothic.ttf") format('truetype');
  }
 
  @font-face {
-   font-family: "Franklin Gothic Light";
-   src: url("../fonts/franklin-gothic/FranklinGothic-Light.ttf");
+   font-family: "FranklinGothicLight";
+   src: url("../fonts/franklin-gothic/FranklinGothicLight.ttf");
  }
 
 $doc-font-size: 16 !default;
@@ -27,8 +27,8 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: "Adobe Caslon", Georgia, Times, serif !default;
-$sans-serif: "Franklin Gothic Light", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "AdobeCaslon", Georgia, Times, serif !default;
+$sans-serif: "FranklinGothicLight", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -85,6 +85,7 @@ $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
 $primary-color: #232D4B !default; //Navy Blue
+$secondary-color: mix(#fff, $primary-color, 25%) !default;
 $success-color: #3fa63f !default;
 $warning-color: #d67f05 !default;
 $danger-color: #ee5f5b !default;
